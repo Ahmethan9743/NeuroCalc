@@ -1,0 +1,29 @@
+name: flexi_calc_flutter
+description: A Flutter calculator application with multiple modules and features.
+version: 1.0.0+1
+publish_to: 'none' 
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.5
+  # Add other dependencies as needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/translations/
+    - assets/sounds/
